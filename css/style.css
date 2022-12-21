@@ -1,0 +1,164 @@
+@import "{{ site.theme }}";
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F3F5FC;
+}
+.container{
+    margin:auto;
+    width:  964px;
+    height: 650px;
+    padding: 5px;
+    background-color: #F3F5FC;
+}
+.logo{
+    width: 100%;
+    float: left;
+    background: #F3F5FC;
+}
+.left{
+    float:left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    background: #F3F5FC;
+}
+.right{
+    margin-top: 0.1%;
+    float: right;
+    border-radius: 24px;
+    width: 30%;
+    height: auto;
+    background: rgb(255, 255, 255);
+}
+.left-button{
+    
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background: #F3F5FC;
+    font-family: 'inter';
+    font-style: normal;
+    color: #495057;
+}
+#advertencia{
+    display: flex;
+    font-family: 'inter';
+    font-style: normal;
+    color: #495057;
+
+}
+  
+.logoImg{
+    margin-left: 5%;
+    margin-top: 1%;
+    float: inherit;
+
+}
+.tittle{
+    float: inherit;
+    margin-left: 20%;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #F3F5FC
+}
+#imgDer{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+
+}
+#texto{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+#textoDos{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#btn-encriptar{
+    
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    border-color: black;
+    color: white;
+}
+#btn-desEncriptar{
+    
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #D8DFE8;
+    border-color: #0A3871;
+    color: #0A3871;
+    
+}
+#warning{
+    display:flex;
+    
+}
+#copiar{
+    margin-left: 36%;
+    margin-top: 50%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
+@media (max-width:1230px){
+    
+    .mensaje{
+        top: 50px;
+    }
+
+    .caja{
+        top: 120px;
+        left: 240px;
+        
+    }
+
+    .botones{
+        flex-direction: column;
+        top: 180px;
+        left: 640px;
+        height: 80px;
+    }
+
+    .esclamacion{
+        top: 280px;
+        left: 640px;
+        height: fit-content;
+    }
+
+    .texto{
+        top: 280px;
+        left: 660px;
+        
+    }
+
+}
